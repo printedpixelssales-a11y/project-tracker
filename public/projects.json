@@ -1,90 +1,101 @@
 {
-  "lastUpdated": "2026-02-14T21:34:00Z",
+  "lastUpdated": "2026-02-18T14:18:00Z",
   "projects": [
     {
       "id": "roblox-game",
-      "name": "Roblox 3D Fish Game",
+      "name": "Roblox 3D Fish Game - Be A Fish In A Tank",
       "status": "in-progress",
-      "description": "3D fish exploration game with swimming mechanics, food collection, and growth system",
-      "progress": 85,
-      "hoursSpent": 45,
-      "estimatedHoursRemaining": 5,
-      "revenueModel": "Robux sales / game passes",
+      "description": "Multiplayer fish tank game: eat food, grow, compete. Phase 2: Balance audit COMPLETE. Awaiting design decisions before proceeding to testing.",
+      "progress": 70,
+      "hoursSpent": 50,
+      "estimatedHoursRemaining": 15,
+      "revenueModel": "Robux game passes + cosmetics / model sales",
       "estimatedMonthlyRevenue": 200,
       "actualMonthlyRevenue": 0,
       "blockers": [
-        "Needs testing and optimization",
-        "Needs custom fish model",
-        "Deployment/publishing not started"
+        "BLOCKING: GoldenShark mechanics decision - remove / nerf / keep as pay-to-win?",
+        "BLOCKING: Hunger system decision - enabled / disabled / decay-based?",
+        "BLOCKING: Difficulty modes design - how many? progression mechanics?",
+        "Cannot proceed to testing until these 3 decisions made"
       ],
       "nextSteps": [
-        "Test in Roblox Studio",
-        "Optimize terrain generation",
-        "Create custom fish model",
-        "Publish to Roblox platform"
+        "Jason reviews balance audit and makes 3 critical design decisions (GoldenShark, hunger, difficulty)",
+        "Implement Jason's design decisions in game mechanics",
+        "Studio testing - spawn rates, XP curves, PvP balance, cosmetics rendering",
+        "Playtesting with 5-10 beta players",
+        "Final balance tweaks & beta submission to Roblox"
       ],
-      "location": "C:\\Users\\jasew\\Downloads\\roblox_game",
+      "location": "C:\\Users\\jasew\\.openclaw2\\Workspace\\BeAFishInATank",
+      "phase": "Phase 2 - Design Decisions → Testing",
       "gitRepo": false,
-      "priority": "high",
+      "priority": "critical",
       "createdDate": "2026-02-14",
-      "lastModified": "2026-02-14"
+      "lastModified": "2026-02-18",
+      "documents": [
+        "PHASE2_BALANCE_SPREADSHEET.md - All numbers audited (XP curves, food spawn, shop pricing)",
+        "PHASE2_DECISION_DOCUMENT.md - 3 critical decisions awaiting Jason's input",
+        "PHASE2_TESTING_PLAN.md - Ready to execute once decisions made"
+      ]
     },
     {
       "id": "99nights-guide",
       "name": "99nightsguide.com",
-      "status": "in-progress",
-      "description": "Website for 99nightsguide.com domain - React + TypeScript + Tailwind",
-      "progress": 35,
+      "status": "deployed",
+      "description": "Live website at 99nightsguide.com - Monetization: Patreon (https://patreon.com/PrintedPixels) + Mailchimp (kid-friendly, no AdSense/Affiliates)",
+      "progress": 85,
       "hoursSpent": 12,
-      "estimatedHoursRemaining": 20,
-      "revenueModel": "Ad revenue / affiliate / premium content",
+      "estimatedHoursRemaining": 5,
+      "revenueModel": "Patreon membership + Mailchimp newsletter sponsorships only (kid-targeting restrictions)",
       "estimatedMonthlyRevenue": 150,
       "actualMonthlyRevenue": 0,
-      "blockers": [
-        "No content strategy defined",
-        "Design/UX not finalized",
-        "Domain not pointing to live server"
-      ],
+      "blockers": [],
       "nextSteps": [
-        "Define content pillars and strategy",
-        "Build out core pages (home, about, guides, contact)",
-        "Set up hosting/deployment pipeline",
-        "Configure domain DNS"
+        "Add Patreon button/link to 99nightsguide.com (URL: https://patreon.com/PrintedPixels)",
+        "Set up Mailchimp newsletter signup form on site",
+        "Configure Mailchimp audience sync (optional)",
+        "Deploy updated site with monetization CTAs",
+        "Monitor signup rates and engagement"
       ],
       "location": "C:\\Users\\jasew\\Desktop\\99\\99nights-guide",
       "gitRepo": true,
       "priority": "high",
       "createdDate": "2026-02-14",
-      "lastModified": "2026-02-14"
+      "lastModified": "2026-02-18"
     },
     {
       "id": "printed-pixels",
-      "name": "PrintedPixels - 3D Model Brand",
-      "status": "dormant",
-      "description": "3D model marketplace brand - posts to makerworld.com/en/@jason.s.tyalor",
-      "progress": 20,
+      "name": "PrintedPixels.shop - E-Commerce Brand",
+      "status": "in-progress",
+      "description": "3D printing e-commerce shop - Domain confirmed: PrintedPixels.shop. Location: Nampa, ID. Niche: Tabletop Gaming Miniatures.",
+      "progress": 30,
       "hoursSpent": 0,
-      "estimatedHoursRemaining": 30,
-      "revenueModel": "Sells on Makerworld, custom print commissions",
-      "estimatedMonthlyRevenue": 100,
+      "estimatedHoursRemaining": 40,
+      "revenueModel": "Direct e-commerce sales (PrintedPixels.shop) + Makerworld marketplace",
+      "estimatedMonthlyRevenue": 200,
       "actualMonthlyRevenue": 0,
       "blockers": [
-        "No recent activity (last update Sept 2023)",
-        "Website is outdated",
-        "No active marketing or uploads"
+        "BLOCKING: CAD tool not yet selected (Blender? FreeCAD? OpenSCAD?)",
+        "Design phase not yet started - awaiting CAD tool confirmation",
+        "No shopify/e-commerce platform selected"
       ],
       "nextSteps": [
-        "Review existing 3D models",
-        "Photograph/prepare new models for sale",
-        "Update Makerworld listings",
-        "Create regular upload schedule"
+        "Research CAD tools for tabletop miniatures (spawning sub-agent)",
+        "Design first 3 models (once tool selected)",
+        "Set up e-commerce platform (Shopify/WooCommerce/custom)",
+        "Build PrintedPixels.shop storefront",
+        "Test print + quality assurance",
+        "Launch marketplace listings (Makerworld + Etsy)"
       ],
-      "location": "C:\\Users\\jasew\\OneDrive\\Desktop\\PrintedPixels.us",
+      "location": "Nampa, ID (production location) / C:\\Users\\jasew\\OneDrive\\Desktop\\PrintedPixels.us (design repo)",
       "gitRepo": false,
-      "priority": "medium",
+      "priority": "high",
       "createdDate": "2026-02-14",
-      "lastModified": "2026-02-14",
-      "hardware": "Bambu 3D Printer (networked, accessed via BambuStudio)"
+      "lastModified": "2026-02-18",
+      "hardware": "Bambu 3D Printer (networked, accessed via BambuStudio)",
+      "socialMedia": {
+        "x": "https://x.com/PrintedPixelsUS",
+        "makerworld": "https://makerworld.com/en/@jason.s.tyalor"
+      }
     },
     {
       "id": "project-tracker",
@@ -139,6 +150,33 @@
       "priority": "critical",
       "createdDate": "2026-02-14",
       "lastModified": "2026-02-14"
+    },
+    {
+      "id": "cipher-growth",
+      "name": "CIPHER Self-Improvement & Autonomy",
+      "status": "active",
+      "description": "Build capabilities to take full autonomous control of projects. Research OpenClaw architecture, master tools, build decision frameworks.",
+      "progress": 10,
+      "hoursSpent": 4,
+      "estimatedHoursRemaining": 0,
+      "revenueModel": "None - enables autonomous project delivery",
+      "estimatedMonthlyRevenue": 0,
+      "actualMonthlyRevenue": 0,
+      "blockers": [],
+      "nextSteps": [
+        "Deploy Patreon integration to 99nightsguide (15 min)",
+        "Research CAD tool options for PrintedPixels (1 hour sub-agent)",
+        "Build Roblox balance decision framework (2 hours)",
+        "Test autonomous cron jobs + sub-agents (ongoing)",
+        "Master browser automation + web scraping",
+        "Build market research decision rubric"
+      ],
+      "location": "CIPHER-GROWTH.md",
+      "gitRepo": false,
+      "priority": "high",
+      "createdDate": "2026-02-18",
+      "lastModified": "2026-02-18",
+      "notes": "Living capability ledger - tracks self-improvement as continuous learning. Not a 'done/not done' project."
     }
   ],
   "metadata": {
