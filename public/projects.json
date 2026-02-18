@@ -1,0 +1,156 @@
+{
+  "lastUpdated": "2026-02-14T21:34:00Z",
+  "projects": [
+    {
+      "id": "roblox-game",
+      "name": "Roblox 3D Fish Game",
+      "status": "in-progress",
+      "description": "3D fish exploration game with swimming mechanics, food collection, and growth system",
+      "progress": 85,
+      "hoursSpent": 45,
+      "estimatedHoursRemaining": 5,
+      "revenueModel": "Robux sales / game passes",
+      "estimatedMonthlyRevenue": 200,
+      "actualMonthlyRevenue": 0,
+      "blockers": [
+        "Needs testing and optimization",
+        "Needs custom fish model",
+        "Deployment/publishing not started"
+      ],
+      "nextSteps": [
+        "Test in Roblox Studio",
+        "Optimize terrain generation",
+        "Create custom fish model",
+        "Publish to Roblox platform"
+      ],
+      "location": "C:\\Users\\jasew\\Downloads\\roblox_game",
+      "gitRepo": false,
+      "priority": "high",
+      "createdDate": "2026-02-14",
+      "lastModified": "2026-02-14"
+    },
+    {
+      "id": "99nights-guide",
+      "name": "99nightsguide.com",
+      "status": "in-progress",
+      "description": "Website for 99nightsguide.com domain - React + TypeScript + Tailwind",
+      "progress": 35,
+      "hoursSpent": 12,
+      "estimatedHoursRemaining": 20,
+      "revenueModel": "Ad revenue / affiliate / premium content",
+      "estimatedMonthlyRevenue": 150,
+      "actualMonthlyRevenue": 0,
+      "blockers": [
+        "No content strategy defined",
+        "Design/UX not finalized",
+        "Domain not pointing to live server"
+      ],
+      "nextSteps": [
+        "Define content pillars and strategy",
+        "Build out core pages (home, about, guides, contact)",
+        "Set up hosting/deployment pipeline",
+        "Configure domain DNS"
+      ],
+      "location": "C:\\Users\\jasew\\Desktop\\99\\99nights-guide",
+      "gitRepo": true,
+      "priority": "high",
+      "createdDate": "2026-02-14",
+      "lastModified": "2026-02-14"
+    },
+    {
+      "id": "printed-pixels",
+      "name": "PrintedPixels - 3D Model Brand",
+      "status": "dormant",
+      "description": "3D model marketplace brand - posts to makerworld.com/en/@jason.s.tyalor",
+      "progress": 20,
+      "hoursSpent": 0,
+      "estimatedHoursRemaining": 30,
+      "revenueModel": "Sells on Makerworld, custom print commissions",
+      "estimatedMonthlyRevenue": 100,
+      "actualMonthlyRevenue": 0,
+      "blockers": [
+        "No recent activity (last update Sept 2023)",
+        "Website is outdated",
+        "No active marketing or uploads"
+      ],
+      "nextSteps": [
+        "Review existing 3D models",
+        "Photograph/prepare new models for sale",
+        "Update Makerworld listings",
+        "Create regular upload schedule"
+      ],
+      "location": "C:\\Users\\jasew\\OneDrive\\Desktop\\PrintedPixels.us",
+      "gitRepo": false,
+      "priority": "medium",
+      "createdDate": "2026-02-14",
+      "lastModified": "2026-02-14",
+      "hardware": "Bambu 3D Printer (networked, accessed via BambuStudio)"
+    },
+    {
+      "id": "project-tracker",
+      "name": "Project Tracker App",
+      "status": "in-progress",
+      "description": "Dashboard to track all projects - status, time, revenue, blockers",
+      "progress": 65,
+      "hoursSpent": 3.5,
+      "estimatedHoursRemaining": 2,
+      "revenueModel": "None - internal tool",
+      "estimatedMonthlyRevenue": 0,
+      "actualMonthlyRevenue": 0,
+      "blockers": [
+        "Architecture being defined",
+        "UI mockups not started"
+      ],
+      "nextSteps": [
+        "Build React dashboard component",
+        "Create data schema and JSON layer",
+        "Implement real-time sync",
+        "Add reporting/export features"
+      ],
+      "location": "C:\\Users\\jasew\\.openclaw2\\Workspace\\project-tracker",
+      "gitRepo": false,
+      "priority": "critical",
+      "createdDate": "2026-02-14",
+      "lastModified": "2026-02-14"
+    },
+    {
+      "id": "monetization-strategy",
+      "name": "Monetization & Revenue Growth",
+      "status": "planning",
+      "description": "Fund Rodger upgrades and AI token costs beyond job income",
+      "progress": 0,
+      "hoursSpent": 0,
+      "estimatedHoursRemaining": 20,
+      "revenueModel": "Multi-stream: Roblox game passes, site ads, PrintedPixels sales, potential consulting",
+      "estimatedMonthlyRevenue": 500,
+      "actualMonthlyRevenue": 0,
+      "blockers": [
+        "No revenue-generating projects live yet",
+        "Need prioritization framework"
+      ],
+      "nextSteps": [
+        "Prioritize projects by ROI potential",
+        "Set launch targets for Roblox game",
+        "Launch 99nights-guide with monetization",
+        "Revive PrintedPixels"
+      ],
+      "location": "Strategic",
+      "gitRepo": false,
+      "priority": "critical",
+      "createdDate": "2026-02-14",
+      "lastModified": "2026-02-14"
+    }
+  ],
+  "metadata": {
+    "totalHoursSpent": 60.5,
+    "totalEstimatedHours": 108,
+    "estimatedTotalMonthlyRevenue": 850,
+    "criticalProjects": ["project-tracker", "monetization-strategy"],
+    "nextMilestones": [
+      "Complete project tracker dashboard",
+      "Launch Roblox game",
+      "Launch 99nights-guide with content",
+      "Revive PrintedPixels"
+    ]
+  }
+}
