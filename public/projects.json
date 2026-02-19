@@ -1,194 +1,212 @@
 {
-  "lastUpdated": "2026-02-18T14:18:00Z",
+  "lastUpdated": "2026-02-19T01:50:00Z",
   "projects": [
-    {
-      "id": "roblox-game",
-      "name": "Roblox 3D Fish Game - Be A Fish In A Tank",
-      "status": "in-progress",
-      "description": "Multiplayer fish tank game: eat food, grow, compete. Phase 2: Balance audit COMPLETE. Awaiting design decisions before proceeding to testing.",
-      "progress": 70,
-      "hoursSpent": 50,
-      "estimatedHoursRemaining": 15,
-      "revenueModel": "Robux game passes + cosmetics / model sales",
-      "estimatedMonthlyRevenue": 200,
-      "actualMonthlyRevenue": 0,
-      "blockers": [
-        "BLOCKING: GoldenShark mechanics decision - remove / nerf / keep as pay-to-win?",
-        "BLOCKING: Hunger system decision - enabled / disabled / decay-based?",
-        "BLOCKING: Difficulty modes design - how many? progression mechanics?",
-        "Cannot proceed to testing until these 3 decisions made"
-      ],
-      "nextSteps": [
-        "Jason reviews balance audit and makes 3 critical design decisions (GoldenShark, hunger, difficulty)",
-        "Implement Jason's design decisions in game mechanics",
-        "Studio testing - spawn rates, XP curves, PvP balance, cosmetics rendering",
-        "Playtesting with 5-10 beta players",
-        "Final balance tweaks & beta submission to Roblox"
-      ],
-      "location": "C:\\Users\\jasew\\.openclaw2\\Workspace\\BeAFishInATank",
-      "phase": "Phase 2 - Design Decisions → Testing",
-      "gitRepo": false,
-      "priority": "critical",
-      "createdDate": "2026-02-14",
-      "lastModified": "2026-02-18",
-      "documents": [
-        "PHASE2_BALANCE_SPREADSHEET.md - All numbers audited (XP curves, food spawn, shop pricing)",
-        "PHASE2_DECISION_DOCUMENT.md - 3 critical decisions awaiting Jason's input",
-        "PHASE2_TESTING_PLAN.md - Ready to execute once decisions made"
-      ]
-    },
     {
       "id": "99nights-guide",
       "name": "99nightsguide.com",
       "status": "deployed",
-      "description": "Live website at 99nightsguide.com - Monetization: Patreon (https://patreon.com/PrintedPixels) + Mailchimp (kid-friendly, no AdSense/Affiliates)",
-      "progress": 85,
-      "hoursSpent": 12,
-      "estimatedHoursRemaining": 5,
-      "revenueModel": "Patreon membership + Mailchimp newsletter sponsorships only (kid-targeting restrictions)",
+      "description": "Live game guide website for 99 Nights in the Forest (Roblox). Monetization: Patreon only (kid-friendly, no AdSense/Affiliates). Site fully deployed and functional.",
+      "progress": 95,
+      "hoursSpent": 14,
+      "estimatedHoursRemaining": 2,
+      "revenueModel": "Patreon membership (https://patreon.com/PrintedPixels) + future Mailchimp newsletter sponsorships",
       "estimatedMonthlyRevenue": 150,
       "actualMonthlyRevenue": 0,
       "blockers": [],
       "nextSteps": [
-        "Add Patreon button/link to 99nightsguide.com (URL: https://patreon.com/PrintedPixels)",
         "Set up Mailchimp newsletter signup form on site",
-        "Configure Mailchimp audience sync (optional)",
-        "Deploy updated site with monetization CTAs",
-        "Monitor signup rates and engagement"
+        "Create initial Patreon tiers and content",
+        "Add more game content (new updates, strategies)",
+        "Monitor traffic via Vercel Analytics",
+        "SEO monitoring — check Google Search Console indexing"
       ],
-      "location": "C:\\Users\\jasew\\Desktop\\99\\99nights-guide",
+      "location": "C:\\Users\\jasew\\.openclaw2\\Workspace\\99nightsguide",
+      "liveUrl": "https://www.99nightsguide.com",
       "gitRepo": true,
       "priority": "high",
       "createdDate": "2026-02-14",
-      "lastModified": "2026-02-18"
+      "lastModified": "2026-02-18",
+      "milestones": [
+        {"date": "2026-02-15", "event": "Site built and deployed to Vercel"},
+        {"date": "2026-02-16", "event": "Custom domain configured"},
+        {"date": "2026-02-18", "event": "Patreon button fixed, AdSense removed (kid compliance), Amazon disclaimer removed"}
+      ]
+    },
+    {
+      "id": "roblox-game",
+      "name": "Be A Fish In A Tank (Roblox)",
+      "status": "in-progress",
+      "description": "Multiplayer fish tank game: eat food, grow, compete. Design decisions MADE — GoldenShark removed (pay-to-win), no hunger system, soft progression. Ready for Studio testing.",
+      "progress": 75,
+      "hoursSpent": 52,
+      "estimatedHoursRemaining": 12,
+      "revenueModel": "Robux game passes + cosmetic skins (no pay-to-win)",
+      "estimatedMonthlyRevenue": 200,
+      "actualMonthlyRevenue": 0,
+      "blockers": [],
+      "nextSteps": [
+        "Studio testing: spawn rates, XP curves, PvP balance",
+        "Verify model balance without GoldenShark",
+        "Test chest system rewards",
+        "Invite 5-10 beta testers for playtesting",
+        "Design cosmetic-only premium models (gold/chrome skins)",
+        "Final polish and beta submission"
+      ],
+      "location": "C:\\Users\\jasew\\.openclaw2\\Workspace\\BeAFishInATank",
+      "gitRepo": true,
+      "priority": "critical",
+      "createdDate": "2026-02-14",
+      "lastModified": "2026-02-18",
+      "phase": "Phase 2 - Testing (UNBLOCKED)",
+      "milestones": [
+        {"date": "2026-02-14", "event": "Git repo created, scripts organized"},
+        {"date": "2026-02-16", "event": "Balance audit complete, decision document created"},
+        {"date": "2026-02-18", "event": "Design decisions made (A/A/A): GoldenShark removed, no hunger, soft progression"}
+      ],
+      "documents": [
+        "PHASE2_DECISIONS_FINAL.md — All 3 decisions documented with rationale",
+        "PHASE2_BALANCE_SPREADSHEET.md — Full number audit",
+        "PHASE2_TESTING_PLAN.md — Ready to execute"
+      ]
     },
     {
       "id": "printed-pixels",
-      "name": "PrintedPixels.shop - E-Commerce Brand",
+      "name": "PrintedPixels.shop — 3D Print E-Commerce",
       "status": "in-progress",
-      "description": "3D printing e-commerce shop - Domain confirmed: PrintedPixels.shop. Location: Nampa, ID. Niche: Tabletop Gaming Miniatures.",
+      "description": "3D printing e-commerce shop. Domain: PrintedPixels.shop. Niche: Tabletop Gaming Miniatures. CAD tool research in progress.",
       "progress": 30,
-      "hoursSpent": 0,
-      "estimatedHoursRemaining": 40,
-      "revenueModel": "Direct e-commerce sales (PrintedPixels.shop) + Makerworld marketplace",
-      "estimatedMonthlyRevenue": 200,
+      "hoursSpent": 4,
+      "estimatedHoursRemaining": 35,
+      "revenueModel": "Direct e-commerce (PrintedPixels.shop) + Makerworld + Etsy marketplace",
+      "estimatedMonthlyRevenue": 300,
       "actualMonthlyRevenue": 0,
       "blockers": [
-        "BLOCKING: CAD tool not yet selected (Blender? FreeCAD? OpenSCAD?)",
-        "Design phase not yet started - awaiting CAD tool confirmation",
-        "No shopify/e-commerce platform selected"
+        "CAD tool research in progress (sub-agent working)"
       ],
       "nextSteps": [
-        "Research CAD tools for tabletop miniatures (spawning sub-agent)",
-        "Design first 3 models (once tool selected)",
-        "Set up e-commerce platform (Shopify/WooCommerce/custom)",
-        "Build PrintedPixels.shop storefront",
-        "Test print + quality assurance",
+        "Complete CAD tool research (sub-agent running)",
+        "Design first 3 tabletop miniatures",
+        "Set up e-commerce platform",
+        "Build storefront on PrintedPixels.shop",
+        "Test prints on Bambu printer",
         "Launch marketplace listings (Makerworld + Etsy)"
       ],
-      "location": "Nampa, ID (production location) / C:\\Users\\jasew\\OneDrive\\Desktop\\PrintedPixels.us (design repo)",
+      "location": "C:\\Users\\jasew\\.openclaw2\\Workspace\\PrintedPixels",
+      "liveUrl": "https://printedpixels.shop",
       "gitRepo": false,
       "priority": "high",
       "createdDate": "2026-02-14",
       "lastModified": "2026-02-18",
-      "hardware": "Bambu 3D Printer (networked, accessed via BambuStudio)",
+      "hardware": "Bambu 3D Printer (networked, via BambuStudio)",
       "socialMedia": {
         "x": "https://x.com/PrintedPixelsUS",
         "makerworld": "https://makerworld.com/en/@jason.s.tyalor"
-      }
+      },
+      "milestones": [
+        {"date": "2026-02-16", "event": "Domain purchased, shop site scaffolded"},
+        {"date": "2026-02-16", "event": "Amazon Associates ID obtained"},
+        {"date": "2026-02-18", "event": "X/Twitter account created, CAD research started"}
+      ]
     },
     {
       "id": "project-tracker",
-      "name": "Project Tracker App",
-      "status": "in-progress",
-      "description": "Dashboard to track all projects - status, time, revenue, blockers",
-      "progress": 65,
-      "hoursSpent": 3.5,
-      "estimatedHoursRemaining": 2,
-      "revenueModel": "None - internal tool",
+      "name": "Project Tracker Dashboard",
+      "status": "deployed",
+      "description": "Real-time dashboard tracking all projects. Auto-deploys from GitHub to Vercel. Live at tracker.99nightsguide.com.",
+      "progress": 85,
+      "hoursSpent": 8,
+      "estimatedHoursRemaining": 3,
+      "revenueModel": "None — internal tool",
       "estimatedMonthlyRevenue": 0,
       "actualMonthlyRevenue": 0,
-      "blockers": [
-        "Architecture being defined",
-        "UI mockups not started"
-      ],
+      "blockers": [],
       "nextSteps": [
-        "Build React dashboard component",
-        "Create data schema and JSON layer",
-        "Implement real-time sync",
-        "Add reporting/export features"
+        "Add revenue tracking columns",
+        "Add agent activity status view",
+        "Improve mobile responsiveness",
+        "Add chart/graph visualizations"
       ],
       "location": "C:\\Users\\jasew\\.openclaw2\\Workspace\\project-tracker",
-      "gitRepo": false,
-      "priority": "critical",
+      "liveUrl": "https://tracker.99nightsguide.com",
+      "gitRepo": true,
+      "priority": "medium",
       "createdDate": "2026-02-14",
-      "lastModified": "2026-02-14"
-    },
-    {
-      "id": "monetization-strategy",
-      "name": "Monetization & Revenue Growth",
-      "status": "planning",
-      "description": "Fund Rodger upgrades and AI token costs beyond job income",
-      "progress": 0,
-      "hoursSpent": 0,
-      "estimatedHoursRemaining": 20,
-      "revenueModel": "Multi-stream: Roblox game passes, site ads, PrintedPixels sales, potential consulting",
-      "estimatedMonthlyRevenue": 500,
-      "actualMonthlyRevenue": 0,
-      "blockers": [
-        "No revenue-generating projects live yet",
-        "Need prioritization framework"
-      ],
-      "nextSteps": [
-        "Prioritize projects by ROI potential",
-        "Set launch targets for Roblox game",
-        "Launch 99nights-guide with monetization",
-        "Revive PrintedPixels"
-      ],
-      "location": "Strategic",
-      "gitRepo": false,
-      "priority": "critical",
-      "createdDate": "2026-02-14",
-      "lastModified": "2026-02-14"
+      "lastModified": "2026-02-18",
+      "milestones": [
+        {"date": "2026-02-14", "event": "Dashboard built with React + Tailwind"},
+        {"date": "2026-02-15", "event": "Deployed to Vercel"},
+        {"date": "2026-02-18", "event": "GitHub auto-deploy set up, custom domain configured"}
+      ]
     },
     {
       "id": "cipher-growth",
       "name": "CIPHER Self-Improvement & Autonomy",
       "status": "active",
-      "description": "Build capabilities to take full autonomous control of projects. Research OpenClaw architecture, master tools, build decision frameworks.",
-      "progress": 10,
-      "hoursSpent": 4,
+      "description": "Continuous capability development. Building autonomous project management skills, tool mastery, and decision frameworks.",
+      "progress": 25,
+      "hoursSpent": 6,
       "estimatedHoursRemaining": 0,
-      "revenueModel": "None - enables autonomous project delivery",
+      "revenueModel": "None — enables all other projects",
       "estimatedMonthlyRevenue": 0,
       "actualMonthlyRevenue": 0,
       "blockers": [],
       "nextSteps": [
-        "Deploy Patreon integration to 99nightsguide (15 min)",
-        "Research CAD tool options for PrintedPixels (1 hour sub-agent)",
-        "Build Roblox balance decision framework (2 hours)",
-        "Test autonomous cron jobs + sub-agents (ongoing)",
-        "Master browser automation + web scraping",
-        "Build market research decision rubric"
+        "Master browser automation for web tasks",
+        "Build market research decision rubric",
+        "Test autonomous cron + sub-agent workflows",
+        "Build ROI calculator for project prioritization"
       ],
       "location": "CIPHER-GROWTH.md",
       "gitRepo": false,
       "priority": "high",
       "createdDate": "2026-02-18",
       "lastModified": "2026-02-18",
-      "notes": "Living capability ledger - tracks self-improvement as continuous learning. Not a 'done/not done' project."
+      "notes": "Living capability ledger — continuous learning, not a done/not-done project.",
+      "milestones": [
+        {"date": "2026-02-18", "event": "OpenClaw architecture mastery complete"},
+        {"date": "2026-02-18", "event": "Decision frameworks built and documented"},
+        {"date": "2026-02-18", "event": "Telegram diagnosed + disabled, Discord security fixed, PowerShell fixed"},
+        {"date": "2026-02-18", "event": "First autonomous design decisions made (Roblox A/A/A)"}
+      ]
+    },
+    {
+      "id": "monetization-strategy",
+      "name": "Monetization & Revenue Growth",
+      "status": "in-progress",
+      "description": "Multi-stream revenue strategy to fund hardware upgrades and AI tokens. Active revenue streams being set up across all projects.",
+      "progress": 20,
+      "hoursSpent": 4,
+      "estimatedHoursRemaining": 15,
+      "revenueModel": "Patreon (99nights) + Robux passes (Roblox) + E-commerce (PrintedPixels) + Marketplace (Makerworld/Etsy)",
+      "estimatedMonthlyRevenue": 650,
+      "actualMonthlyRevenue": 0,
+      "blockers": [
+        "No revenue-generating projects live with payments yet"
+      ],
+      "nextSteps": [
+        "Create Patreon tiers and content for 99nightsguide",
+        "Launch Roblox game with cosmetic game passes",
+        "Design and list first 3D prints on Makerworld/Etsy",
+        "Track revenue across all streams in dashboard"
+      ],
+      "location": "Strategic",
+      "gitRepo": false,
+      "priority": "critical",
+      "createdDate": "2026-02-14",
+      "lastModified": "2026-02-18"
     }
   ],
   "metadata": {
-    "totalHoursSpent": 60.5,
-    "totalEstimatedHours": 108,
-    "estimatedTotalMonthlyRevenue": 850,
-    "criticalProjects": ["project-tracker", "monetization-strategy"],
+    "totalHoursSpent": 88,
+    "totalEstimatedHoursRemaining": 67,
+    "estimatedTotalMonthlyRevenue": 650,
+    "criticalProjects": ["roblox-game", "monetization-strategy"],
+    "lastDeployment": "2026-02-18T01:45:00Z — 99nightsguide.com updated and deployed to production",
     "nextMilestones": [
-      "Complete project tracker dashboard",
-      "Launch Roblox game",
-      "Launch 99nights-guide with content",
-      "Revive PrintedPixels"
+      "99nightsguide: Create Patreon tiers + content",
+      "Roblox: Studio testing + beta invites",
+      "PrintedPixels: CAD tool selected + first model designed",
+      "Revenue: First dollar earned from any project"
     ]
   }
 }
