@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-19T01:50:00Z",
+  "lastUpdated": "2026-02-19T03:00:00Z",
   "projects": [
     {
       "id": "99nights-guide",
@@ -74,20 +74,20 @@
       "name": "PrintedPixels.shop — 3D Print E-Commerce",
       "status": "in-progress",
       "description": "3D printing e-commerce shop. Domain: PrintedPixels.shop. Niche: Tabletop Gaming Miniatures. CAD tool research in progress.",
-      "progress": 30,
-      "hoursSpent": 4,
-      "estimatedHoursRemaining": 35,
+      "progress": 35,
+      "hoursSpent": 5,
+      "estimatedHoursRemaining": 33,
       "revenueModel": "Direct e-commerce (PrintedPixels.shop) + Makerworld + Etsy marketplace",
       "estimatedMonthlyRevenue": 300,
       "actualMonthlyRevenue": 0,
       "blockers": [
-        "CAD tool research in progress (sub-agent working)"
+        "Custom domain DNS setup at IONOS (Jason's side)"
       ],
       "nextSteps": [
-        "Complete CAD tool research (sub-agent running)",
+        "Install Blender and complete first miniature model (CAD tool decided: Blender)",
         "Design first 3 tabletop miniatures",
-        "Set up e-commerce platform",
-        "Build storefront on PrintedPixels.shop",
+        "Set up e-commerce platform on PrintedPixels.shop",
+        "Configure custom domain DNS at IONOS",
         "Test prints on Bambu printer",
         "Launch marketplace listings (Makerworld + Etsy)"
       ],
@@ -105,7 +105,8 @@
       "milestones": [
         {"date": "2026-02-16", "event": "Domain purchased, shop site scaffolded"},
         {"date": "2026-02-16", "event": "Amazon Associates ID obtained"},
-        {"date": "2026-02-18", "event": "X/Twitter account created, CAD research started"}
+        {"date": "2026-02-18", "event": "X/Twitter account created, CAD research started"},
+        {"date": "2026-02-18", "event": "CAD tool decided: Blender (report: CAD_TOOL_RESEARCH.md). Next.js upgraded to 16, deployed to Vercel."}
       ]
     },
     {
