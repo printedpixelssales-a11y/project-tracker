@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-19T13:00:00Z",
+  "lastUpdated": "2026-02-19T18:00:00Z",
   "projects": [
     {
       "id": "99nights-guide",
@@ -36,37 +36,43 @@
       "id": "roblox-game",
       "name": "Be A Fish In A Tank (Roblox)",
       "status": "in-progress",
-      "description": "Multiplayer fish tank game: eat food, grow, compete. Design decisions MADE — GoldenShark removed (pay-to-win), no hunger system, soft progression. Ready for Studio testing.",
-      "progress": 75,
-      "hoursSpent": 52,
-      "estimatedHoursRemaining": 12,
+      "description": "Multiplayer fish tank game with collection system. Phase 2 Expansion complete: 5 fish types × 8 variants each, auto-combining, bonus system (speed/shield/respawn/hidden), chest rewards, 6-category leaderboards. Multiplier progression (stats scale by variant). Ready for Phase 2E (DataStore + balance testing).",
+      "progress": 85,
+      "hoursSpent": 70,
+      "estimatedHoursRemaining": 8,
       "revenueModel": "Robux game passes + cosmetic skins (no pay-to-win)",
       "estimatedMonthlyRevenue": 200,
       "actualMonthlyRevenue": 0,
       "blockers": [],
       "nextSteps": [
-        "Studio testing: spawn rates, XP curves, PvP balance",
-        "Verify model balance without GoldenShark",
-        "Test chest system rewards",
-        "Invite 5-10 beta testers for playtesting",
-        "Design cosmetic-only premium models (gold/chrome skins)",
-        "Final polish and beta submission"
+        "Phase 2E: DataStore persistence (save collection, credits, stats across sessions)",
+        "Balance testing: verify XP curves, spawn rates, combo timing",
+        "Studio testing: full integration test (lobby → selection → swim → collection → lobby)",
+        "Optimize UI performance (6 leaderboards + inventory could lag)",
+        "Invite 10-15 beta testers for playtesting",
+        "Polish bonus notifications and visual feedback",
+        "Final balance pass and feature freeze"
       ],
       "location": "C:\\Users\\jasew\\.openclaw2\\Workspace\\BeAFishInATank",
       "gitRepo": true,
       "priority": "critical",
       "createdDate": "2026-02-14",
       "lastModified": "2026-02-18",
-      "phase": "Phase 2 - Testing (UNBLOCKED)",
+      "phase": "Phase 2D - Integration Complete (Ready for Phase 2E DataStore)",
       "milestones": [
         {"date": "2026-02-14", "event": "Git repo created, scripts organized"},
         {"date": "2026-02-16", "event": "Balance audit complete, decision document created"},
-        {"date": "2026-02-18", "event": "Design decisions made (A/A/A): GoldenShark removed, no hunger, soft progression"}
+        {"date": "2026-02-18", "event": "Design decisions made (A/A/A): GoldenShark removed, no hunger, soft progression"},
+        {"date": "2026-02-19", "event": "Phase 2A-2D Complete: Collection system (5 fish × 8 variants), Bonus system (4 core types), Economy (XP→Credits), Full integration. 41 files committed."}
       ],
       "documents": [
-        "PHASE2_DECISIONS_FINAL.md — All 3 decisions documented with rationale",
-        "PHASE2_BALANCE_SPREADSHEET.md — Full number audit",
-        "PHASE2_TESTING_PLAN.md — Ready to execute"
+        "PHASE2_EXPANSION_PLAN.md — Full 4-week roadmap with specs",
+        "PHASE2A_COMPLETION_REPORT.md — Fish database + combining logic",
+        "PHASE2B_UI_IMPLEMENTATION.md — Collection UI + Leaderboards",
+        "PHASE2C_COMPLETION_REPORT.md — Chest system + bonus application",
+        "PHASE2D_INTEGRATION_GUIDE.md — PlayerManager + GUI wiring complete",
+        "Game_Idea.md — Full design document with progression loop",
+        "rokit.toml — Rojo config for live Studio syncing"
       ]
     },
     {
@@ -198,16 +204,17 @@
     }
   ],
   "metadata": {
-    "totalHoursSpent": 88,
-    "totalEstimatedHoursRemaining": 67,
+    "totalHoursSpent": 107,
+    "totalEstimatedHoursRemaining": 61,
     "estimatedTotalMonthlyRevenue": 650,
     "criticalProjects": ["roblox-game", "monetization-strategy"],
-    "lastDeployment": "2026-02-18T01:45:00Z — 99nightsguide.com updated and deployed to production",
+    "lastDeployment": "2026-02-19T18:00:00Z — BeAFishInATank Phase 2 Expansion (collection + bonuses + integration) committed",
     "nextMilestones": [
-      "99nightsguide: Create Patreon tiers + content",
-      "Roblox: Studio testing + beta invites",
-      "PrintedPixels: CAD tool selected + first model designed",
-      "Revenue: First dollar earned from any project"
+      "99nightsguide: Create Patreon tiers + content, monitor traffic",
+      "Roblox: Phase 2E (DataStore persistence), studio testing, balance validation",
+      "PrintedPixels: CAD tool set (Blender), design first 3 tabletop miniatures, configure DNS",
+      "Revenue: Patreon live + first Robux pass deployed",
+      "Tracker: Sync projects.json to live dashboard every hour"
     ]
   }
 }
